@@ -26,5 +26,8 @@ Also,  For Transaction APIs -  I have taken CSV data files to run multiple APIs 
 - Finally Run
 ## Execute the following steps using CLI:
 - git clone <repo_url>
-- [For Booking APIs JMeter Collection]: jmeter -n -t .\booking.jmx -l .\booking.jtl -e -o Reports 
+- [For Booking APIs JMeter Collection]:
+  ```console
+    jmeter -n -t .\booking.jmx -l .\booking.jtl -e -o Reports
+  ```
 - [For DMoney Trabsaction APIs JMeter Collection ]: jmeter -n -t .\dmoney.jmx -l .\dmoney.jtl -e -o Reports 
